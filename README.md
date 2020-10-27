@@ -1,17 +1,17 @@
 # Demo of Fintech Idea
 This repo contains bare-bones implementation of the very simple Fintech business - issuing loans to private individuals.
-This idea is based on the (Lending Club)[https://www.kaggle.com/wordsforthewise/lending-club] data from Kaggle.
+This idea is based on the [Lending Club](https://www.kaggle.com/wordsforthewise/lending-club) data from Kaggle.
 
 ## Implementation
 The repo contains 4 services:
-1. (Streamlit UI)[https://www.streamlit.io/] where customers fill their application
-2. Statistical Model (Regression) running on (FastAPI)[https://fastapi.tiangolo.com/]
+1. [Streamlit UI](https://www.streamlit.io/) where customers fill their application
+2. Statistical Model (Regression) running on [FastAPI](https://fastapi.tiangolo.com/)
 3. Postgres Database that stores requests and responses
-4. (JupyterLab)[https://jupyterlab.readthedocs.io/en/stable/] to analyse the data
+4. [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) to analyse the data
 
 ## How to run it on the laptop?
-First, based on the operating system, install (Docker)[https://www.docker.com/]. After that, next steps are:
-1. Download data from (Kaggle)[https://www.kaggle.com/wordsforthewise/lending-club]
+First, based on the operating system, install [Docker](https://www.docker.com/). After that, next steps are:
+1. Download data from [Kaggle](https://www.kaggle.com/wordsforthewise/lending-club)
 2. Clone the repo
 3. Go to _model_ folder
 4. Place the download data from (1)
